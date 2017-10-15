@@ -9,7 +9,7 @@
                     <li role="presentation"><a href="#">Grading &amp; Analysis</a></li>
                     <li role="presentation"><a href="#">Education </a></li>
                     <li role="presentation"><a href="#">Research &amp; News</a></li>
-                    <li role="presentation"><a href="#contain-who" class="cust-move" data-target="#contain-who">Who we are</a></li>
+                    <li role="presentation"><a href="#contain-who" class="cust-move" data-target="#contain-who"> Who we are</a></li>
                     <li role="presentation"><a href="#" id="login-user" class="login-clr" data-toggle="modal" data-target="#login-modal">Login</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right"></ul>
