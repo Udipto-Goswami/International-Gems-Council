@@ -10,11 +10,11 @@
 <?php
 
 
-if($_SESSION['username'] == null)   {
+if($_SESSION["username"] == null)   {
 header("Location: ../index.php");
 }
 else{
-  $user = $_SESSION['username'];
+  $user = $_SESSION["username"];
 }
 
 ?>
