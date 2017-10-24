@@ -14,11 +14,7 @@ else{
 }
 
 ?>
-
-
-
-
-        <div class="container-fluid">
+ <div class="container-fluid">
             <div class="row register-form">
                 <div class="col-md-8 col-md-offset-2">
                     <form class="form-horizontal custom-form cust_back" method="post">
@@ -52,8 +48,8 @@ else{
                                     $product_number = $_POST["product_number"];
                                     $description    = addslashes($_POST["description"]);
                                     $gross_weight   = $_POST["gross_weight"];
-                                    $weight         = $_POST['weight'];
-                                    $diamond_weight = $_POST['diamond_weight'];
+                                    $weight         = $_POST["weight"];
+                                    $diamond_weight = $_POST["diamond_weight"];
                                     $color_stwt     = $_POST["color_stwt"];
                                     
 
