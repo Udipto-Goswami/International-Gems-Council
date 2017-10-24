@@ -4,7 +4,7 @@
             </div>
                 <ul class="nav navbar-nav navbar-right navsut">     
                    
-                    <li  class="bck-clr" role="presentation"><a href="../index.php" id="" ><i class="glyphicon glyphicon-arrow-left"></i>&nbsp Back</a></li>
+                    <li  class="bck-clr" role="presentation"><a href="../index.php" id="" ><i class=" glyphicon glyphicon-arrow-left"></i>&nbsp Back</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right"></ul>
             
