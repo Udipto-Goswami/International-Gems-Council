@@ -3,8 +3,18 @@
             <div class="navbar-header"><a class="navbar-brand navbar-link" href="../index.php"><img src="assets/img/favicon.png" style="display: inline; width: 20px;">&nbsp International Gems Council</a>              
             </div>
                 <ul class="nav navbar-nav navbar-right navsut">     
+                   <?php 
+                        session_start();
+                        if(isset($_SESSION['user'])){
+                        
+                        echo' <li  class="bck-clr" role="presentation"><a href="../gem_database.php" id="" ><i class=" glyphicon glyphicon-arrow-left"></i>&nbsp Back</a></li>';
+                        }
+                        else{
+                                
+                                echo' <li  class="bck-clr" role="presentation"><a href="../index.php" id="" ><i class=" glyphicon glyphicon-arrow-left"></i>&nbsp Back</a></li>';
+                        
+                        ?>
                    
-                    <li  class="bck-clr" role="presentation"><a href="../index.php" id="" ><i class=" glyphicon glyphicon-arrow-left"></i>&nbsp Back</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right"></ul>
             
